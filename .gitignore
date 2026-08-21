@@ -1,0 +1,2 @@
+auth/uploads/*
+!auth/uploads/.gitkeep

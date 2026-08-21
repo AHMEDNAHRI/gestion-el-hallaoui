@@ -1,0 +1,19 @@
+/* Reset minimal */
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;margin:0;padding:0}
+body{background:#f4f7fa;padding:40px}
+
+/* Carte centrée */
+.card{background:#fff;border-radius:10px;max-width:400px;margin:0 auto 30px;padding:30px;box-shadow:0 6px 12px rgba(0,0,0,.1)}
+h2{margin-bottom:20px;text-align:center;color:#2d3748}
+
+/* Formulaires */
+input,select{width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:6px}
+button{width:100%;padding:10px;background:#f6ad01;border:0;border-radius:6px;font-weight:bold;cursor:pointer;color:#fff;margin-top:10px}
+button:hover{background:#e09800}
+a{color:#f6ad01;text-decoration:none}
+a.btn{display:inline-block;margin:5px 0;background:#3182ce;color:#fff;padding:10px 15px;border-radius:6px}
+a.btn:hover{background:#2563af}
+
+/* Messages */
+.error{background:#fee2e2;color:#b91c1c;padding:10px;border-radius:6px;margin-bottom:10px}
+.success{background:#d1fae5;color:#065f46;padding:10px;border-radius:6px;margin-bottom:10px}

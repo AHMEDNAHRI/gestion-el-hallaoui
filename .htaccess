@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Redirection pour le dossier auth
+RewriteRule ^login$ auth/login.php [L]
+RewriteRule ^register$ auth/register.php [L]
+RewriteRule ^dashboard$ auth/dashboard.php [L]
+RewriteRule ^forgot$ auth/forgot.php [L]
+RewriteRule ^reset$ auth/reset.php [L]
+RewriteRule ^logout$ auth/logout.php [L]
